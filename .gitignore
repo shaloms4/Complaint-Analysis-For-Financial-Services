@@ -1,0 +1,111 @@
+# Ignore data folder
+/data/raw/
+
+# Ignore virtual environment folder
+/myenv/
+./myenv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+myenv/
+.env/
+.env.bak/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython / Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Jupyter Notebook hidden checkpoints
+**/.ipynb_checkpoints/
+
+# Data files
+
+*.csv
+*.tsv
+*.dat
+*.data
+*.sqlite
+*.db
+*.h5
+*.hdf5
+
+# VSCode settings
+.vscode/
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Ignore notebook outputs if using nbdime or cleaning outputs separately
